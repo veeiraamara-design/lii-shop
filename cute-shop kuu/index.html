@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Lii Shop • Kawaii Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">🌸 Lii Shop</div>
+    <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Keranjang</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Selamat Datang di Lii Shop 💗</h1>
+    <p>Toko online kawaii dengan warna pink aesthetic 🌸</p>
+</header>
+
+<h2 class="judul">Produk Terbaru</h2>
+
+<div class="produk-container">
+
+    <!-- PRODUK 1 -->
+    <div class="produk">
+        <img src="images/gamis1.jpg">
+        <h3>Gamis Sakura</h3>
+        <p>Rp 120.000</p>
+        
+        <button onclick="addToCart('Gamis Sakura', 120000)">Tambah ke Keranjang</button>
+
+        <a class="btn" href="detail.html?name=Gamis%20Sakura&price=120000&img=images/gamis1.jpg&desc=Gamis%20bahan%20premium%20dengan%20motif%20sakura">
+            Lihat Detail
+        </a>
+    </div>
+
+    <!-- PRODUK 2 -->
+    <div class="produk">
+        <img src="images/gamis2.jpg">
+        <h3>Gamis Pink Ribbon</h3>
+        <p>Rp 135.000</p>
+        
+        <button onclick="addToCart('Gamis Pink Ribbon', 135000)">Tambah ke Keranjang</button>
+
+        <a class="btn" href="detail.html?name=Gamis%20Pink%20Ribbon&price=135000&img=images/gamis2.jpg&desc=Gamis%20pink%20kawaii%20dengan%20aksen%20pita">
+            Lihat Detail
+        </a>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <p>🌸 Made with Love by Lii Shop • 2025 🌸</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
